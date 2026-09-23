@@ -51,6 +51,7 @@ export default function Scene() {
             maxDistance={24}
           />
           <CameraTracker />
+          <CameraFly />
         </>
       )}
     </Canvas>
