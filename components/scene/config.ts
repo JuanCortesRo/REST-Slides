@@ -5,6 +5,8 @@ const GH_BASE_PATH = process.env.NEXT_PUBLIC_GH_BASE_PATH ?? "";
 
 export const MODEL_URL = `${GH_BASE_PATH}/models/REST.glb`;
 
+export const SILHOUETTE_URL = `${GH_BASE_PATH}/images/rest-silhouette.png`;
+
 export const TUNNEL_URL = `${GH_BASE_PATH}/models/tunnel.glb`;
 
 // Tamaño/pose del túnel: ajustar TUNNEL_SCALE (compensa el tamaño real del

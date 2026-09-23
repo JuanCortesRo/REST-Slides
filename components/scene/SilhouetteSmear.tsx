@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect } from "react";
+import { useMemo, useState } from "react";
 import {
   AdditiveBlending,
   DoubleSide,
@@ -10,8 +11,9 @@ import {
   Texture,
   TextureLoader,
 } from "three";
+import { SILHOUETTE_URL } from "./config";
 
-const SMEAR_URL = "/images/rest-silhouette.png";
+const SMEAR_URL = SILHOUETTE_URL;
 
 const PLANE_CENTER: [number, number, number] = [-0.095, 0.002, 0.19];
 
